@@ -23,3 +23,11 @@ class TodoBook:
 
     def __init__(self):
         self.todos = todos = {}
+
+    def add_todo(self, title: str, description: str) -> int:
+        total_id = len(self.todos) +1
+        code_id = todo(0)
+
+
+
+
