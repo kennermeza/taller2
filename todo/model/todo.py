@@ -8,3 +8,13 @@ class Todo:
         self.tags: list[str] = []
 
 
+def mark_complete(self):
+    self.completed = True
+
+def add_tags(self, tag: str):
+    self.tag: str = tag
+    if self.tag is not self.tags:
+        self.tags.append(tag)
+
+
+
