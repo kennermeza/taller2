@@ -8,15 +8,18 @@ class Todo:
         self.tags: list[str] = []
 
 
-   def mark_complete(self):
-    self.completed = True
+    def mark_complete(self):
+      self.completed = True
 
     def add_tags(self, tag: str):
-    self.tag: str = tag
-    if self.tag is not self.tags:
-        self.tags.append(tag)
+       self.tag: str = tag
+       if self.tag is not self.tags:
+             self.tags.append(tag)
 
     def __str__(self) -> str:
-      return f"{self.  code_id:} - {self.tiltle}"
+     return f"{self.  code_id:} - {self.tilte}"
 
+class TodoBook:
 
+    def __init__(self):
+        self.todos = todos = {}
